@@ -1,0 +1,33 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser-based game",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server src",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evb0110/02_01_making_package.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "eugene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evb0110/02_01_making_package/issues"
+  },
+  "homepage": "https://github.com/evb0110/02_01_making_package#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  },
+  "dependencies": {
+    "eslint": "^5.12.1"
+  }
+}
